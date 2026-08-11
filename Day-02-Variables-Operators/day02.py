@@ -118,3 +118,27 @@ profit = total_sales - total_expenses
 
 print("Profit:", profit)
 print("Made a profit:", profit > 0)
+
+
+# -----------------------------
+# 10. Monthly Savings
+# -----------------------------
+
+monthly_salary = 50000
+monthly_expenses = 32000
+
+monthly_savings = monthly_salary - monthly_expenses
+
+print("Monthly Savings:", monthly_savings)
+
+
+# -----------------------------
+# 11. Simple Eligibility Check
+# -----------------------------
+
+age = 21
+monthly_salary = 50000
+
+eligible = age >= 18 and monthly_salary >= 40000
+
+print("Eligible:", eligible)

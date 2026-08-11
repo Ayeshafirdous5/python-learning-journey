@@ -59,3 +59,7 @@ total_sales = 150000
 total_expenses = 120000
 
 profit = total_sales - total_expenses
+
+## Additional Practice
+
+I also practiced applying variables, arithmetic operators, comparison operators and logical operators to simple real-world examples such as monthly savings and eligibility checks.
