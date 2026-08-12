@@ -29,3 +29,30 @@ employee_name = "Ayesha Firdous"
 employee_id = "DA102"
 department = "Data Analytics"
 print("Employee: %s, ID: %s, Department: %s" % (employee_name,employee_id,department))
+
+
+# -----------------------------
+# PART 2 - STRING SLICING
+# -----------------------------
+
+# Exercise 7
+name = "Ayesha"
+print(name[0:3])
+print(name[3:])
+print(name[:3])
+print(name[:])
+
+#Exercise 8 — Negative slicing
+name = "Ayesha"
+print(name[-3:])
+print(name[:-3])
+
+#Exercise 9 — Step
+word = "PYTHON"
+print(word[0:6:2])
+print(word[0:6:3])
+
+#Exercise 10 — Reverse
+word = "PYTHON"
+print(word[0:6:2])
+print(word[0:6:3])
