@@ -116,3 +116,40 @@ print(" ".join(names))
 print("Ayesha".isalpha())
 print("12345".isdigit())
 print("Ayesha21".isalnum())
+
+
+# --------------------------------
+# PART 4 - STRING FORMATTING 
+# --------------------------------
+#Exercise 19 — Basic f-string
+name = "Ayesha"
+age = 21
+city = "Hyderabad"
+print(f"My name is {name}, I am {age} years old and I live in {city}")
+
+#Exercise 20 — Calculation inside f-string
+price = 250
+quantity = 4
+print(f"The total price is {price * quantity}")
+
+#Exercise 21
+total_sales = 150000
+total_expenses = 120000
+profit = total_sales - total_expenses
+print(f"Total sales were ₹{total_sales}, expenses were ₹{total_expenses}, and profit was ₹{profit}")
+
+#Exercise 22 — Decimal formatting
+average = 78.6666666667
+print(f"Average:{average:.2f}")
+
+#Exercise 23 — Percentage
+completion_rate = 0.8567
+print(f"Completion Rate: {completion_rate:.2%}")
+
+#Exercise 24
+total_sales = 1250000
+total_expenses = 875430.75
+profit = total_sales - total_expenses
+print(f"Sales: ₹{total_sales:,}")
+print(f"Expenses: ₹{total_expenses:,}")
+print(f"Profit: ₹{profit:,}")

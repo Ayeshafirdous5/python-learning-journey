@@ -84,6 +84,29 @@ Today I also learned how to extract portions of a string using slicing.
 - Joining multiple values into a single string
 - Applying string methods to simple data-related examples
 
+
+## Part 4 - String Formatting
+
+Topics practiced:
+
+- f-strings
+- Inserting variables inside strings
+- Using expressions inside f-strings
+- Decimal formatting
+- Percentage formatting
+- Thousands separators
+- Formatting Data Analyst values
+- Formatting sales, expenses and profit
+
+### Practice
+
+- Creating formatted personal information
+- Calculating values inside f-strings
+- Formatting averages to 2 decimal places
+- Converting decimal values into percentages
+- Formatting large numbers with commas
+- Creating a formatted sales and profit summary
+
 Understanding strings is useful for cleaning and working with text data.
 
 More updates will be added as I continue learning Python.
