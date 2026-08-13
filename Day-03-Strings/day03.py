@@ -56,3 +56,63 @@ print(word[0:6:3])
 word = "PYTHON"
 print(word[0:6:2])
 print(word[0:6:3])
+
+
+
+# --------------------------------
+# PART 3 - STRING METHODS
+# --------------------------------
+
+# Exercise 11 - upper() and lower()
+
+name = "Ayesha"
+print(name.upper())
+print(name.lower())
+
+
+# Exercise 12 - strip()
+
+name = "   Ayesha Firdous   "
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+
+
+# Exercise 13 - replace()
+
+city = "Hyderabad"
+print(city.replace("Hyderabad", "Mumbai"))
+
+
+# Exercise 14 - find() and count()
+
+text = "banana"
+print(text.find("a"))
+print(text.count("a"))
+
+
+# Exercise 15 - startswith() and endswith()
+
+employee_id = "EMP102"
+email = "ayesha@gmail.com"
+print(employee_id.startswith("EMP"))
+print(email.endswith(".com"))
+
+
+# Exercise 16 - split()
+
+name = "Ayesha Firdous"
+print(name.split())
+
+
+# Exercise 17 - join()
+
+names = ["Ayesha", "Firdous"]
+print(" ".join(names))
+
+
+# Exercise 18 - checking strings
+
+print("Ayesha".isalpha())
+print("12345".isdigit())
+print("Ayesha21".isalnum())

@@ -47,6 +47,42 @@ Today I also learned how to extract portions of a string using slicing.
 - Using negative indexes with slicing
 - Using different step values
 
+# Day 03 - Strings
+
+## Topics Practiced
+
+- String Basics
+- String Indexing
+- Positive Indexing
+- Negative Indexing
+- String Length using `len()`
+- String Concatenation
+- String Immutability
+- String Slicing
+- Negative Slicing
+- String Slicing with Step
+- `upper()`
+- `lower()`
+- `strip()`
+- `find()`
+- `count()`
+- `split()`
+- `join()`
+
+### Practice
+
+- Working with strings
+- Accessing individual characters
+- Extracting portions of strings using slicing
+- Using negative indexes
+- Using slicing with steps
+- Converting string cases
+- Removing unnecessary whitespace
+- Finding text within a string
+- Counting occurrences of characters or text
+- Splitting strings into multiple values
+- Joining multiple values into a single string
+- Applying string methods to simple data-related examples
 
 Understanding strings is useful for cleaning and working with text data.
 
