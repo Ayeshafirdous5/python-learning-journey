@@ -86,7 +86,6 @@ Today I also learned how to extract portions of a string using slicing.
 
 
 ## Part 4 - String Formatting
-
 Topics practiced:
 
 - f-strings
