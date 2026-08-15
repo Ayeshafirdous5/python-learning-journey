@@ -2,10 +2,7 @@
 
 This repository documents my journey of learning Python from the fundamentals to advanced concepts.
 
-I am learning Python with the goal of becoming a Data Analyst.
-
 ## Progress
-
 - Day 01 - Python Fundamentals ✅
 
 ## Day 01 - Python Fundamentals

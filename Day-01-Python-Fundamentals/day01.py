@@ -24,7 +24,6 @@ print(type(age))
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 city = input("Enter your city: ")
-
 print("Hello %s, you are %d years old and you live in %s" % (name,age,city))
 
 #CHALLENGE
