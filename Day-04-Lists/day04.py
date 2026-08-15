@@ -28,3 +28,37 @@ print(len(employees))
 sales = [12000, 15000, 18000, 11000, 22000]
 print(f"Sales data: {sales}")
 print(len(sales))
+
+
+# PART 2 - LIST METHODS
+#Exercise 7 — append
+fruits = ["Apple", "Banana", "Mango"]
+fruits.append("Orange")
+print(fruits)
+
+#Exercise 9 — extend
+numbers = [1, 2, 3]
+numbers.extend([4,5,6])
+print(numbers)
+
+#Exercise 10 — remove
+employees = ["Ayesha", "Sara", "Ali", "Fatima"]
+employees.remove("Ali")
+print(employees)
+
+#Exercise 11 — pop
+marks = [85, 90, 78, 92, 88]
+marks.pop(2)
+print(marks)
+
+#Exercise 12 — sort
+sales = [12000, 45000, 18000, 30000, 15000]
+sales.sort()
+print(sales)
+sales.sort(reverse=True)
+print(sales)
+
+#Exercise 13 — count + index
+numbers = [10, 20, 10, 30, 10, 40]
+print(numbers.count(10))
+print(numbers.index(30))
