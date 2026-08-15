@@ -19,3 +19,12 @@ print(cities[3])
 marks = [85, 90, 78, 92, 88]
 marks[2] = 80
 print(marks)
+
+#Exercise 5 - Length
+employees = ["Ayesha", "Sara", "Ali", "Fatima", "Ahmed"]
+print(len(employees))
+
+#Exercise 6 
+sales = [12000, 15000, 18000, 11000, 22000]
+print(f"Sales data: {sales}")
+print(len(sales))
