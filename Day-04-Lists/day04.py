@@ -62,3 +62,38 @@ print(sales)
 numbers = [10, 20, 10, 30, 10, 40]
 print(numbers.count(10))
 print(numbers.index(30))
+
+
+# -----------------------------
+# PART 3 - LIST SLICING & OPERATIONS
+# -----------------------------
+# Exercise 14 - Basic slicing
+fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
+print(fruits[0:3])
+
+# Exercise 15 - Start omitted
+print(fruits[:3])
+
+# Exercise 16 - End omitted
+print(fruits[2:])
+
+# Exercise 17 - Negative slicing
+print(fruits[-3:])
+
+# Exercise 18 - Step
+numbers = [1, 2, 3, 4, 5, 6]
+print(numbers[0:6:2])
+
+# Exercise 19 - Reverse using slicing
+print(numbers[::-1])
+
+# Exercise 20 - Copy
+sales = [10000, 20000, 30000]
+sales_copy = sales.copy()
+print(sales_copy)
+
+# Exercise 21 - Membership
+employees = ["Ayesha", "Sara", "Ali", "Fatima"]
+print("Ayesha" in employees)
+print("Rahul" in employees)
+print("Rahul" not in employees)

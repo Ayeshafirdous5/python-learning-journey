@@ -49,4 +49,28 @@ Learned how to work with and modify lists using different built-in methods.
 - Counted repeated values
 - Found the index of a specific value
 
+### Part 3 - List Slicing & Operations
+
+Learned how to extract portions of a list and perform useful list operations.
+
+### Topics Practiced
+
+- List slicing using start and stop indexes
+- Slicing from the beginning or to the end
+- Negative indexing and slicing
+- Slicing with a step
+- Reversing a list using slicing
+- Copying lists using `copy()`
+- Checking whether an item exists using `in`
+- Checking whether an item does not exist using `not in`
+
+### Practice
+
+- Extracted specific portions of lists
+- Retrieved the last few items using negative slicing
+- Selected items using a step value
+- Reversed lists using slicing
+- Created copies of lists
+- Checked for the presence of values in lists
+
 More updates will be added as I continue learning Python.
