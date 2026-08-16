@@ -97,3 +97,62 @@ employees = ["Ayesha", "Sara", "Ali", "Fatima"]
 print("Ayesha" in employees)
 print("Rahul" in employees)
 print("Rahul" not in employees)
+
+#PART 4
+#Exercise 22 — nested list
+students = [
+    ["Ayesha", 21],
+    ["Sara", 22],
+    ["Ali", 20]
+]
+print(students)
+
+#Exercise 23 — Access inner lists
+print(students[0][0])
+print(students[0][1])
+print(students[1][0])
+print(students[1][1])
+print(students[2][0])
+print(students[2][1])
+
+#Exercise 24 — Access individual values
+print(students[0][0])
+print(students[0][1])
+print(students[1][0])
+print(students[2][1])
+
+#Exercise 25 — Modify nested data
+students = [
+    ["Ayesha", 21],
+    ["Sara", 22],
+    ["Ali", 20]
+]
+students[1][1] = 23
+print(students)
+
+#Exercise 26 — Sales data 
+sales = [
+    ["January", 45000],
+    ["February", 52000],
+    ["March", 48000],
+    ["April", 60000]
+]
+print(sales[0][1])
+print(sales[2][1])
+print(sales[3][1])
+
+#Exercise 27 — Employee data
+employees = [
+    ["Ayesha", "Data Analyst", 50000],
+    ["Sara", "Developer", 60000],
+    ["Ali", "Tester", 45000]
+]
+print(employees[0][1])
+print(employees[1][2])
+print(employees[2][0])
+
+#Exercise 28 — Length
+print(len(employees))
+print(len(employees[0]))
+print(len(employees[1]))
+print(len(employees[2]))

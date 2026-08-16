@@ -73,4 +73,29 @@ Learned how to extract portions of a list and perform useful list operations.
 - Created copies of lists
 - Checked for the presence of values in lists
 
+### Part 4 - Nested Lists
+
+Learned how to work with lists inside other lists and access individual values from nested data.
+
+### Topics Practiced
+
+- Creating nested lists
+- Accessing inner lists
+- Accessing individual values from nested lists
+- Modifying values inside nested lists
+- Working with nested student data
+- Working with nested sales data
+- Working with nested employee data
+- Using `len()` with nested lists
+
+### Practice
+
+- Created student information using nested lists
+- Accessed student names and ages
+- Modified values inside nested lists
+- Accessed monthly sales values
+- Accessed employee roles and salaries
+- Practiced indexing with multiple levels
+- Used nested lists with simple Data Analyst examples
+
 More updates will be added as I continue learning Python.
