@@ -37,3 +37,51 @@ print("Employee name:", employee[0])
 print("Job role:", employee[1])
 print("Salary:", employee[2])
 print("Location:", employee[3])
+
+
+# PART 2 - TUPLE PACKING AND UNPACKING
+# Exercise 9 - Tuple Packing
+employee = ("Ayesha", "Data Analyst", 50000)
+print(employee)
+
+#Exercise 10 — Tuple Unpacking
+employee = ("Ayesha", "Data Analyst", 50000)
+name, role, salary = employee
+print(name)
+print(salary)
+print(role)
+
+# Exercise 11 - Unpacking Employee Data
+employee = ("Ayesha", "Data Analyst", 50000, "Hyderabad")
+name, role, salary, location = employee
+print(name)
+print(role)
+print(salary)
+print(location)
+
+# Exercise 12 - Swapping Values
+a = 10
+b = 20
+a, b = b, a
+print(a)
+print(b)
+
+# Exercise 13 - Unpacking with *
+numbers = (10, 20, 30, 40, 50)
+first, *remaining = numbers
+print(first)
+print(remaining)
+
+## Exercise 14 - First and Last Values
+data = ("Python", "SQL", "Excel", "Power BI", "Tableau")
+first, *middle, last = data
+print(first)
+print(middle)
+print(last)
+
+# Exercise 15
+sales_record = ("January", 45000, "Hyderabad")
+month, sales, location = sales_record
+print(f"Month: {month}")
+print(f"Sales: ₹{sales}")
+print(f"Location: {location}")

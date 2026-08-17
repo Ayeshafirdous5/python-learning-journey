@@ -27,4 +27,27 @@ Learned the basics of tuples and how they are used to store multiple values in a
 - Used tuples to store employee information
 - Accessed employee name, role, salary, and location from a tuple
 
+## Part 2 - Tuple Unpacking
+
+Learned how to unpack tuple values into separate variables and work with multiple values efficiently.
+
+### Topics Practiced
+
+- Tuple unpacking
+- Unpacking employee data
+- Assigning tuple values to variables
+- Swapping values using tuple unpacking
+- Unpacking with `*`
+- Extracting first, middle, and last values
+- Working with real-world sales data using tuples
+
+### Practice
+
+- Unpacked employee information into separate variables
+- Swapped two values without using a temporary variable
+- Used `*` to collect remaining tuple values
+- Extracted first, middle, and last values from a tuple
+- Unpacked sales records into separate variables
+- Used tuple unpacking with practical examples
+
 More updates will be added as I continue learning Python.
