@@ -75,4 +75,37 @@ Learned how to perform basic operations with tuples and convert between tuples a
 - Converted list data into a tuple
 - Practiced tuple operations with Python, SQL, Excel, Power BI, and sales-related examples
 
+### Part 4 - Working with Tuples and Structured Data
+
+Learned how to use tuples to store and work with structured records such as employee and sales data.
+
+### Topics Practiced
+
+- Creating employee records using tuples
+- Accessing values from tuples using indexes
+- Accessing values from nested tuples
+- Tuple unpacking with multiple variables
+- Unpacking tuples inside a `for` loop
+- Working with employee records
+- Working with sales records
+- Finding the number of records using `len()`
+
+### Practice
+
+- Created employee records using tuples
+- Accessed employee names, roles, and salaries
+- Accessed values from nested tuples
+- Unpacked employee and sales records into separate variables
+- Used tuple unpacking inside loops
+- Worked with multiple employee records
+- Retrieved sales values from different months
+- Counted the number of records using `len()`
+
+### Real-World Examples
+
+- Employee records containing name, job role, and salary
+- Sales records containing month and sales amount
+- Working with structured data using tuples
+- Accessing and unpacking records for data analysis practice
+
 More updates will be added as I continue learning Python.

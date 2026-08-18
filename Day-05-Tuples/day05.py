@@ -117,3 +117,53 @@ print(numbers_list)
 cities = ["Hyderabad", "Mumbai", "Delhi"]
 cities_tuple = tuple(cities)
 print(cities_tuple)
+
+
+#PART 4
+#Exercise 23 — Employee Record
+employee = ("Ayesha", "Data Analyst", 50000, "Hyderabad")
+name, role, salary, location = employee
+print(f"Employee: {name}")
+print(f"Role: {role}")
+print(f"Salary: {salary}")
+print(f"Location: {location}")
+
+#Exercise 24 — Sales Record
+sales_record = ("March", 48000, "Hyderabad")
+month, sales, location = sales_record
+print(f"Month: {month}")
+print(f"Sales: ₹{sales}")
+print(f"Location: {location}")
+
+#Exercise 25 — Multiple Employees
+employees = [
+    ("Ayesha", "Data Analyst", 50000),
+    ("Sara", "Developer", 60000),
+    ("Ali", "Tester", 45000)
+]
+print(employees[0][1])
+print(employees[1][2])
+print(employees[2][0])
+
+#Exercise 26 — Sales Data
+sales = [
+    ("January", 45000),
+    ("February", 52000),
+    ("March", 48000),
+    ("April", 60000)
+]
+print(sales[0][1])
+print(sales[2][1])
+print(sales[3][1])
+
+#Exercise 27 — Unpacking Inside a Loop
+employees = [
+    ("Ayesha", "Data Analyst", 50000),
+    ("Sara", "Developer", 60000),
+    ("Ali", "Tester", 45000)
+]
+for name, role, salary in employees:
+    print(name, role, salary)
+
+#Exercise 28 — Find the Number of Records
+print(len(employees))
