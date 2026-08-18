@@ -85,3 +85,35 @@ month, sales, location = sales_record
 print(f"Month: {month}")
 print(f"Sales: ₹{sales}")
 print(f"Location: {location}")
+
+#PART 3 TUPLE OPERATIONS
+#Exercise 16 — Length of a Tuple
+tools = ("Python", "SQL", "Excel", "Power BI", "Tableau")
+print(len(tools))
+
+#Exercise 17 — Check if an Item Exists
+subjects = ("Python", "SQL", "Excel", "Power BI")
+print("SQL" in subjects)
+
+#Exercise 18 — Check if an Item Does Not Exist
+print("Java" not in subjects)
+
+#Exercise 19 — Tuple Concatenation
+tuple1 = (10, 20, 30)
+tuple2 = (40, 50, 60)
+result = tuple1 + tuple2
+print(result)
+
+#Exercise 20 — Tuple Repetition
+data = ("Python", "SQL")
+print(data * 3)
+
+#Exercise 21 — Convert Tuple to List
+numbers = (10, 20, 30, 40)
+numbers_list = list(numbers)
+print(numbers_list)
+
+#Exercise 22 — Convert List to Tuple
+cities = ["Hyderabad", "Mumbai", "Delhi"]
+cities_tuple = tuple(cities)
+print(cities_tuple)

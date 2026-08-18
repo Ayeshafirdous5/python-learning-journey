@@ -50,4 +50,29 @@ Learned how to unpack tuple values into separate variables and work with multipl
 - Unpacked sales records into separate variables
 - Used tuple unpacking with practical examples
 
+
+## Part 3 - Tuple Operations
+
+Learned how to perform basic operations with tuples and convert between tuples and lists.
+
+### Topics Practiced
+
+- Finding the length of a tuple using `len()`
+- Checking if an item exists using `in`
+- Checking if an item does not exist using `not in`
+- Combining tuples using `+`
+- Repeating tuples using `*`
+- Converting tuples into lists using `list()`
+- Converting lists into tuples using `tuple()`
+
+### Practice
+
+- Found the number of items in a tuple
+- Checked whether specific values exist in tuples
+- Combined two tuples into one
+- Repeated tuple values using tuple repetition
+- Converted tuple data into a list
+- Converted list data into a tuple
+- Practiced tuple operations with Python, SQL, Excel, Power BI, and sales-related examples
+
 More updates will be added as I continue learning Python.
