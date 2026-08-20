@@ -27,6 +27,7 @@ Learned the basics of tuples and how they are used to store multiple values in a
 - Used tuples to store employee information
 - Accessed employee name, role, salary, and location from a tuple
 
+
 ## Part 2 - Tuple Unpacking
 
 Learned how to unpack tuple values into separate variables and work with multiple values efficiently.
@@ -34,8 +35,8 @@ Learned how to unpack tuple values into separate variables and work with multipl
 ### Topics Practiced
 
 - Tuple unpacking
-- Unpacking employee data
 - Assigning tuple values to variables
+- Unpacking employee data
 - Swapping values using tuple unpacking
 - Unpacking with `*`
 - Extracting first, middle, and last values
@@ -48,7 +49,7 @@ Learned how to unpack tuple values into separate variables and work with multipl
 - Used `*` to collect remaining tuple values
 - Extracted first, middle, and last values from a tuple
 - Unpacked sales records into separate variables
-- Used tuple unpacking with practical examples
+- Practiced tuple unpacking with real-world examples
 
 
 ## Part 3 - Tuple Operations
@@ -73,11 +74,12 @@ Learned how to perform basic operations with tuples and convert between tuples a
 - Repeated tuple values using tuple repetition
 - Converted tuple data into a list
 - Converted list data into a tuple
-- Practiced tuple operations with Python, SQL, Excel, Power BI, and sales-related examples
+- Practiced tuple operations using Python, SQL, Excel, Power BI, and sales-related examples
 
-### Part 4 - Working with Tuples and Structured Data
 
-Learned how to use tuples to store and work with structured records such as employee and sales data.
+## Part 4 - Tuples with Structured Data
+
+Learned how tuples can be used to store and work with structured records such as employee and sales data.
 
 ### Topics Practiced
 
