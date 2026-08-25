@@ -7,5 +7,10 @@ skills = {"Python", "SQL", "Python", "Excel", "SQL"}
 print(skills)
 
 skills = {"Python", "SQL", "Excel"}
-
 print(len(skills))
+
+#numbers = {10, 20, 30}
+#print(numbers[0])
+
+cities = {"Hyderabad", "Mumbai", "Delhi", "Bangalore"}
+print(len(cities))
