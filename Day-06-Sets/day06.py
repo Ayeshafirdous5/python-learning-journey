@@ -14,3 +14,6 @@ print(len(skills))
 
 cities = {"Hyderabad", "Mumbai", "Delhi", "Bangalore"}
 print(len(cities))
+
+numbers = {10,10,89,76,76,90}
+print(numbers)
