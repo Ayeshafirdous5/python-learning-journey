@@ -17,3 +17,8 @@ print(len(cities))
 
 numbers = {10,10,89,76,76,90}
 print(numbers)
+
+
+data = {"Python", "SQL", "Python", "Excel", "SQL"}
+print(data)
+print(len(data))
