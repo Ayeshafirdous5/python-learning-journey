@@ -14,7 +14,7 @@ Checking whether an item does not exist using not in
 Creating sets from lists using set()
 Working with sets using real-world data examples
 
-Practice
+## Practice
 Created sets containing different values
 Observed how duplicate values are automatically removed
 Checked the number of unique items using len()
@@ -24,4 +24,5 @@ Converted lists into sets
 ## Key Concept
 Unlike lists and tuples, sets do not maintain items using indexes and do not allow duplicate values.
 
+##  Part 2 → Adding & Removing Set Items
 More updates will be added as I continue learning Python.
