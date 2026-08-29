@@ -23,3 +23,6 @@ print(len(numbers))
 data = {"Python", "SQL", "Python", "Excel", "SQL"}
 print(data)
 print(len(data))
+
+
+# Part 2 → Adding & Removing Set Items
