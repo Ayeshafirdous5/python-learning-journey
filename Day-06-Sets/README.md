@@ -1,28 +1,45 @@
-Part 1 - Set Fundamentals
+# Day 06 - Sets
 
-Learned the basics of sets and how they are used to store unique and unordered values in Python.
+## Part 1 - Set Fundamentals
 
-## Topics Practiced
-Creating sets
-Understanding unordered collections
-Understanding unique values in sets
-Duplicate values in sets
-Zero-based indexing does not apply to sets
-Checking the length of a set using len()
-Checking whether an item exists using in
-Checking whether an item does not exist using not in
-Creating sets from lists using set()
-Working with sets using real-world data examples
+Learned the basics of sets in Python and how they are useful for storing unique values and removing duplicates.
 
-## Practice
-Created sets containing different values
-Observed how duplicate values are automatically removed
-Checked the number of unique items using len()
-Checked whether specific values exist in a set
-Converted lists into sets
+### Topics Practiced
 
-## Key Concept
-Unlike lists and tuples, sets do not maintain items using indexes and do not allow duplicate values.
+- Creating sets
+- Understanding unique values in sets
+- Automatically removing duplicate values
+- Finding the length of a set using `len()`
+- Creating an empty set using `set()`
+- Checking the difference between sets and lists
+- Understanding that sets do not support indexing
+- Checking the type of a set using `type()`
+- Working with sets containing strings and numbers
+- Using sets with real-world data
 
-##  Part 2 → Adding & Removing Set Items
+### Practice
+
+- Created sets containing programming and data analysis tools
+- Created sets containing numbers
+- Observed how duplicate values are automatically removed
+- Found the number of unique values using `len()`
+- Created an empty set
+- Compared lists and sets
+- Practiced working with unique employee names
+- Checked the data type of a set
+- Used sets to store unique technologies and skills
+
+### Real-World Examples
+
+- Removing duplicate employee names
+- Finding unique skills
+- Finding unique technologies used in a project
+- Working with unique data values
+
+### Key Learning
+
+Sets are **unordered collections of unique elements**. They are useful when duplicate values are not required.
+
+Unlike lists and tuples, sets **do not support indexing**.
+
 More updates will be added as I continue learning Python.
