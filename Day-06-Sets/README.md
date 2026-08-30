@@ -42,4 +42,43 @@ Sets are **unordered collections of unique elements**. They are useful when dupl
 
 Unlike lists and tuples, sets **do not support indexing**.
 
+## Part 2 - Set Methods
+
+Learned how to modify and manage Python sets using built-in set methods.
+
+### Topics Practiced
+
+- `add()` - Adding a single item to a set
+- `update()` - Adding multiple items to a set
+- `remove()` - Removing a specific item
+- `discard()` - Removing an item safely
+- Difference between `remove()` and `discard()`
+- `pop()` - Removing an arbitrary item
+- `clear()` - Removing all items
+- `copy()` - Creating a copy of a set
+
+### Practice
+
+- Added new skills using `add()`
+- Added multiple skills using `update()`
+- Removed items using `remove()`
+- Used `discard()` when an item may not exist
+- Compared `remove()` and `discard()`
+- Removed arbitrary elements using `pop()`
+- Cleared complete sets using `clear()`
+- Created backup sets using `copy()`
+- Updated employee skills and technology sets
+
+### Real-World Examples
+
+- Managing employee skills
+- Maintaining technology skill sets
+- Adding and removing data analysis tools
+- Creating backup copies of sets
+- Working with unique employee and technology data
+
+### Key Learning
+
+Python set methods make it easy to add, remove, update, clear, and copy unique collections of data.
+
 More updates will be added as I continue learning Python.

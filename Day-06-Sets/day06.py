@@ -51,3 +51,68 @@ technologies = {
 }
 print(technologies)
 print(len(technologies))
+
+
+#Part 2: Set Methods
+#Exercise 11 — add()
+skills = {"Python", "SQL", "Excel"}
+skills.add("Power BI")
+print(skills)
+
+#Exercise 12 — update()
+skills = {"Python", "SQL"}
+skills.update(["Excel", "Tableau", "Power BI"])
+print(skills)
+
+#Exercise 13 — remove()
+subjects = {"Python", "SQL", "Excel", "Tableau"}
+subjects.remove("SQL")
+print(subjects)
+
+#Exercise 14 — discard()
+tools = {"Python", "Excel", "Power BI"}
+tools.discard("Tableau")
+print(tools)
+
+#Exercise 15 — remove() vs discard()
+skills = {"Python", "SQL", "Excel"}
+skills.remove("SQL")
+skills.discard("Java")
+print(skills)
+
+#Exercise 16 — pop()
+numbers = {10, 20, 30, 40, 50}
+numbers.pop()
+print(numbers)
+
+#Exercise 17 — clear()
+employees = {"Ayesha", "Sara", "Ali"}
+employees.clear()
+print(employees)
+
+#Exercise 18 — copy()
+skills = {"Python", "SQL", "Excel"}
+backup_skills = skills.copy()
+print(skills)
+print(backup_skills)
+
+#Exercise 19 — Employee Skills
+employee_skills = {"Python", "SQL"}
+employee_skills.update(["Power BI", "Tableau", "SQL"])
+print(employee_skills)
+
+#Exercise 20
+technologies = {
+    "Python",
+    "SQL",
+    "Python",
+    "Excel",
+    "SQL",
+    "Tableau"
+}
+print(technologies)
+technologies.add("Power BI")
+technologies.remove("SQL")
+technologies.discard("Java")
+print(technologies)
+print(len(technologies))
