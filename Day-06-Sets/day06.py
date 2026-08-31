@@ -116,3 +116,50 @@ technologies.remove("SQL")
 technologies.discard("Java")
 print(technologies)
 print(len(technologies))
+
+
+#Part 3 — Set Operations
+#Exercise 21 — Union
+python_skills = {"Python", "Pandas", "NumPy"}
+data_skills = {"SQL", "Excel", "Pandas"}
+result = python_skills.union(data_skills)
+print(result)
+
+#Exercise 22 — Intersection
+result = python_skills.intersection(data_skills)
+print(result)
+
+#Exercise 23 — Difference
+result = python_skills.difference(data_skills)
+print(result)
+
+#Exercise 24 — Reverse Difference
+result = data_skills.difference(python_skills)
+print(result)
+
+#Exercise 25 — Symmetric Difference
+result = python_skills.symmetric_difference(data_skills)
+print(result)
+
+#Exercise 26 — Union Operator
+a = {10, 20, 30}
+b = {30, 40, 50}
+result = a | b
+print(result)
+
+#Exercise 27 — Intersection Operator
+result = a & b
+print(result)
+
+#Exercise 28 — Subset
+basic_skills = {"Python", "SQL"}
+all_skills = {"Python", "SQL", "Excel", "Power BI", "Tableau"}
+print(basic_skills <= all_skills)
+
+#Exercise 29 — Superset
+print(all_skills >= basic_skills)
+
+#Exercise 30 — Disjoint Sets
+morning_shift = {"Ayesha", "Sara", "Ali"}
+evening_shift = {"Fatima", "Riya", "John"}
+print(morning_shift.isdisjoint(evening_shift))
