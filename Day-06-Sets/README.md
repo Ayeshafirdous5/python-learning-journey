@@ -81,4 +81,47 @@ Learned how to modify and manage Python sets using built-in set methods.
 
 Python set methods make it easy to add, remove, update, clear, and copy unique collections of data.
 
+## Part 3 - Set Operations
+
+Learned how to perform different operations on sets to compare, combine, and analyze data efficiently.
+
+### Topics Practiced
+
+- Union of sets using `union()`
+- Intersection of sets using `intersection()`
+- Difference between sets using `difference()`
+- Reverse difference between sets
+- Symmetric difference using `symmetric_difference()`
+- Union operator `|`
+- Intersection operator `&`
+- Difference operator `-`
+- Symmetric difference operator `^`
+- Checking subsets using `<=`
+- Checking supersets using `>=`
+- Checking disjoint sets using `isdisjoint()`
+
+### Practice
+
+- Combined Python and data-related skills using union
+- Found common skills using intersection
+- Found skills present in one set but not another using difference
+- Compared two sets using reverse difference
+- Found unique elements using symmetric difference
+- Practiced set operations using operators
+- Checked whether one set was a subset of another
+- Checked whether one set was a superset of another
+- Checked whether two sets had no common elements
+
+### Real-World Examples
+
+- Comparing Python skills with other data-related skills
+- Finding common technical skills
+- Identifying unique skills between two groups
+- Comparing employee or student skill sets
+- Checking whether a smaller skill set is contained within a larger skill set
+
+### Key Learning
+
+Set operations are useful when working with collections of unique data and when comparing different groups of values.
+
 More updates will be added as I continue learning Python.
