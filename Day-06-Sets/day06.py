@@ -163,3 +163,11 @@ print(all_skills >= basic_skills)
 morning_shift = {"Ayesha", "Sara", "Ali"}
 evening_shift = {"Fatima", "Riya", "John"}
 print(morning_shift.isdisjoint(evening_shift))
+
+
+#Part 4: Set Comprehension & Practical Set Usage
+numbers = [1, 2, 3, 4, 5]
+squares = set()
+for number in numbers:
+    squares.add(number ** 2)
+print(squares)
