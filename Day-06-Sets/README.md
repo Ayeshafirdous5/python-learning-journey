@@ -124,4 +124,51 @@ Learned how to perform different operations on sets to compare, combine, and ana
 
 Set operations are useful when working with collections of unique data and when comparing different groups of values.
 
+## Part 4 - Sets in Real-World Data
+
+Learned how to use sets for practical data handling, comparison, filtering, and removing duplicate values.
+
+### Topics Practiced
+
+- Using sets with real-world data
+- Finding common skills between employees
+- Finding unique skills
+- Combining data from multiple sets
+- Comparing employee and team skill sets
+- Checking required skills using `issubset()`
+- Checking larger skill sets using `issuperset()`
+- Checking whether sets are disjoint
+- Removing duplicate values from data
+- Finding the number of unique values using `len()`
+- Using sets for basic data cleaning
+- Set comprehension
+- Filtering values using set comprehension
+
+### Practice
+
+- Compared employee skill sets
+- Found common and unique employee skills
+- Combined skills from different teams
+- Checked whether employees had the required skills
+- Used subset and superset operations for skill comparison
+- Checked whether two teams had any common skills
+- Removed duplicate technology names from data
+- Counted unique technologies
+- Used sets to clean and analyze simple datasets
+- Practiced set comprehension with conditions
+
+### Real-World Examples
+
+- Employee skill analysis
+- Comparing skills between teams
+- Checking candidate eligibility for a job role
+- Finding unique technologies in a dataset
+- Removing duplicate data
+- Filtering values for data analysis
+- Comparing customer or employee records
+
+### Key Learning
+
+Sets are useful for working with unique data, removing duplicates, comparing datasets, and performing efficient data analysis operations.
+
 More updates will be added as I continue learning Python.

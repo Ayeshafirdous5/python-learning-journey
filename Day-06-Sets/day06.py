@@ -166,8 +166,68 @@ print(morning_shift.isdisjoint(evening_shift))
 
 
 #Part 4: Set Comprehension & Practical Set Usage
-numbers = [1, 2, 3, 4, 5]
-squares = set()
-for number in numbers:
-    squares.add(number ** 2)
-print(squares)
+#Exercise 31 — Common Skills
+employee1 = {"Python", "SQL", "Excel", "Power BI"}
+employee2 = {"Python", "Tableau", "SQL", "Java"}
+# Find the common skills
+result = employee1.intersection(employee2)
+print(result)
+
+#Exercise 32 — Unique Skills of an Employee
+employee1 = {"Python", "SQL", "Excel", "Power BI"}
+employee2 = {"Python", "Tableau", "SQL", "Java"}
+result = employee1.difference(employee2)
+print(result)
+
+#Exercise 33 — Combine Employee Skills
+employee1 = {"Python", "SQL", "Excel"}
+employee2 = {"SQL", "Power BI", "Tableau"}
+result = employee1.union(employee2)
+print(result)
+
+#Exercise 34 — Department Skills
+data_team = {"Python", "SQL", "Excel", "Power BI"}
+marketing_team = {"Excel", "Tableau", "SQL", "Google Analytics"}
+result = data_team | marketing_team
+print(result)
+
+#Exercise 35 — Skills Only in One Team
+team_a = {"Python", "SQL", "Excel"}
+team_b = {"SQL", "Power BI", "Tableau"}
+result = team_a.symmetric_difference(team_b)
+print(result)
+
+#Exercise 36 — Check Required Skills
+required_skills = {"Python", "SQL", "Excel"}
+employee_skills = {"Python", "SQL", "Excel", "Power BI", "Tableau"}
+print(required_skills.issubset(employee_skills))
+
+#Exercise 37 — Check Candidate Eligibility
+required = {"Python", "SQL", "Power BI"}
+candidate = {"Python", "SQL", "Excel", "Power BI", "Tableau"}
+print(required <= candidate)
+
+#Exercise 38 — Check Superset
+required = {"Python", "SQL"}
+candidate = {"Python", "SQL", "Excel", "Power BI"}
+print(candidate.issuperset(required))
+
+#Exercise 39 — Check for No Common Skills
+team_a = {"Python", "SQL", "Excel"}
+team_b = {"Java", "C++", "HTML"}
+print(team_a.isdisjoint(team_b))
+
+#Exercise 40 — Data Cleaning Using Sets
+technologies = [
+    "Python",
+    "SQL",
+    "Python",
+    "Excel",
+    "Power BI",
+    "SQL",
+    "Tableau",
+    "Excel"
+]
+unique_technologies = set(technologies)
+print(unique_technologies)
+print(len(unique_technologies))
