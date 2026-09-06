@@ -84,3 +84,6 @@ print(sales["product"])
 print(sales["units_sold"])
 print(sales["price"])
 print(sales["region"])
+
+#PART 2: Dictionary Methods
+print("\n\nPART 2: Dictionary Methods")
